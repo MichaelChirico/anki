@@ -1,0 +1,4 @@
+importFrom(RSQLite, dbConnet, dbGetQuery)
+importFrom(jsonlite, read_json)
+
+export(load_deck)
