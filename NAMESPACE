@@ -1,4 +1,7 @@
-importFrom(RSQLite, dbConnet, dbGetQuery)
+importFrom(data.table, data.table, setDT, tstrsplit)
 importFrom(jsonlite, read_json)
+importFrom(RSQLite, dbConnect, dbGetQuery, SQLite)
 
 export(load_deck)
+
+S3method(print, anki)

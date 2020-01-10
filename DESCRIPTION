@@ -4,6 +4,6 @@ Version: 0.0.1
 Authors@R: 
     person("Michael", "Chirico", role = c("aut", "cre"), email = "michaelchirico4@gmail.com")
 Description: Anki is a flashcard system with a built-in Spatial Repetition Software (SRS) algorithm for improving learning retention. This package is an R interface for working with Anki decks.
-Imports: jsonlite, RSQLite
+Imports: data.table, jsonlite, RSQLite
 License: MPL-2.0 | file LICENSE
 Encoding: UTF-8
